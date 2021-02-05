@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference
+        android:key="@string/pref_color_key"
+        android:title="Shap color！"
+        android:entries="@array/color_option"
+        android:entryValues="@array/color_option_value"
+        android:dialogTitle="Choose color！"
+        android:defaultValue="@string/pref_color_red_value"
+        />
+
+</PreferenceScreen>
